@@ -2,17 +2,17 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding:0px  ;
+    padding: 0px;
     align-items: center;
     margin: 0 200px;
 }
 
 .nav-title {
-     color: #181818; 
-    font-size: 45px; 
-    font-weight: 800; 
-   
-    
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+
 }
 
 .text-primary {
@@ -55,6 +55,19 @@ body {
 
 }
 
+.sect-title {
+    font-size: 18px;
+    color: #181818;
+    font-weight: 700;
+
+    text-align: center;
+}
+.sect-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
+
 /* header related styles */
 .header {
     background-color: rgb(223, 214, 204);
@@ -64,23 +77,28 @@ body {
 
 
 }
-.banner{
-     padding: 30px 30px 0px 150px  ;
-     display: flex;
-     align-items: center;
-     justify-content: ;
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: ;
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 }
-.banner .pro-pic{
+
+.banner .pro-pic {
     width: 500px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 40px;
     margin-bottom: 0px;
 }
-.banner-title{
+
+.banner-title {
     font-size: 75px;
     font-weight: 700;
     color: #474747;
@@ -88,8 +106,31 @@ body {
     padding-bottom: 0px;
 
 }
-.ban-des{
-   margin-bottom: 200px;
+
+.ban-des {
+    margin-bottom: 200px;
 }
 
+/* main section styles */
+main{
+    max-width: 1140px;
+}
+/* about section styles */
+.about {
+    padding: 140px;
+    margin: 0 auto;
+    
+    border-radius: 10px;
+ 
+    background-color: #fff8f3;
+    /* text-align: justify; */
+    margin: 130px ;
    
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
