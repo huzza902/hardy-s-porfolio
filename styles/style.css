@@ -11,6 +11,7 @@ nav {
      color: #181818; 
     font-size: 45px; 
     font-weight: 800; 
+   
     
 }
 
@@ -57,13 +58,38 @@ body {
 /* header related styles */
 .header {
     background-color: rgb(223, 214, 204);
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
 
 }
 .banner{
-     padding: 30px 30px 30px 150px  ;
+     padding: 30px 30px 0px 150px  ;
      display: flex;
      align-items: center;
+     justify-content: ;
+}
+.banner-content{
+    max-width: 585px;
 }
 .banner .pro-pic{
     width: 500px;
 }
+.banner-greetings{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 75px;
+    font-weight: 700;
+    color: #474747;
+    margin-top: 5px;
+    padding-bottom: 0px;
+
+}
+.ban-des{
+   margin-bottom: 200px;
+}
+
+   
